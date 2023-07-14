@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANGAN172_FTO2306_GroupB_BantuGanca_ITW_Digital-Resume</title>
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
+    <link rel="stylesheet" href="/CSS/Style.css">
+  </head>
+  <body>
+
+    <!-- Contains header info -->
+    <header>
+        <h1 class="header-text">Bantu Amiri Ganca</h1>
+        <picture>
+            <source srcset="./Images/profile-pic-small.jpeg" media="(max-width: 500px)">
+            <source srcset="./Images/profile-pic-medium.jpeg" media="(max-width: 1100px)">
+            <img src="/Images/BantuG.jpeg" id="profile-pic" width="200px">
+        </picture>
+        <p class="header-text statement">Welcome to my resume</p>
+    </header>
+    <main>
+
+        <!-- Contains all CV info and an internal nav bar (only refers to on the page info) -->
+        <section>
+            <aside>
+                <nav class="top-bar">
+                    <a href="#education" class="top-bar-item">Education</a>
+                    <a href="#experience" class="top-bar-item">Job Experience</a>
+                    <a href="#skills" class="top-bar-item">Skills</a>
+                    <a href="#contact" class="top-bar-item last-item">Contact me</a>
+                </nav>
+            </aside>
+            <article>
+                <div class="CV-section">
+                    <div id="education">
+                        <h2>Education</h2>
+                        <div id="BSc" class="qualification">
+                        <h3>Qualification:</h3>
+                        <h4>Electrical Engineering</h4>
+                        <h5>2020-2021</h5>
+                        <p>I obtained my diploma through Northlink.</p>
+                        </div>
+                        
+                            <p>My experience in this course was incredibly valuable. I will admit that I struggled a fair amount, but it gave me many good  insights into my own character and what I am actually capable of.</p>
+                        </div>
+                        
+                        <div id="SoftwareDev" class="qualification">
+                            <h3 id="SoftwareDev">Qualification:</h3>
+                            <h4>Software Development</h4>
+                            <h5>April 2023-Ongoing</h5>
+                            <p>I was exposed to programming during my first year of my B.Sc degree. I learnt some basics back then, but the core logic and principles stuck with me throughout the years. After some time job hunting and recovering from post-pandemic and -university burnout, I decided to pursue a qualification in programming and that has been the best idea for me so far.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="CV-section">
+                    <div id="experience">
+                        <h2>Job Experience</h2>
+                        <div id="house-sitting" class="Experience">
+                            <h4>House Sitting</h3>
+                            <h5>2017-present</h4>
+                            <p>I have been house sitting on and off for a number of years. It started as mostly for family friends, but in the past year or two I have garnered a number of repeat customers that I have no relationship to. This experience has shown me to be capable, responsible and reliable. People can and do trust me with their homes and pets (which are, in some cases, equivalent to children for them) without stressing and worrying about the state they will find them in on their return.</p>
+                        </div>
+                        <div id="baking" class="Experience">
+                            <h4>Baking</h3>
+                            <h5>2020-present</h4>
+                            <p>There has always been a passion in my life for producing tasty treats for friends and family. I was encouraged to sell my goods a few years ago and since then I have been running a side business I like to call "Bakers Blocq". I run an Instagram page for it (linked in the <a>Contact</a> section down below) and have received many orders over the years. I explored some employment opportunities in this field and even did a paid trial at a restaurant called Shawarma Express baking pita bread. I enjoyed it a lot, but realised that I enjoyed my passion too much to risk becoming reliant on it and potentially resenting it in the future.</p>
+                            
+                            <p>By exploring this avenue and running my own side business, I developed a knack for producing consistent quality goods and discovering exactly what design a customer wants for their product.</p>
+                        </div>
+                    </div>
+                </div>    
+                <div class="CV-section">
+                    <div id="skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>Time Management</li>
+                            <li>Work well under pressure</li>
+                            <li>Quality control and consistency</li>
+                            <li>Ability to build and maintain positive customer relationship</li>
+                            <li>Able to work with teammates or by myself</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Contains info required to contact me in future -->
+        <footer>
+            <div id="contact">
+                <h2 class="contact-info">Contact me</h2>
+                <nav >
+                    <a href="https://www.linkedin.com/in/lauren-de-blocq-van-scheltinga/" target="_blank" class="contact-info contact-item">LinkedIn</a>
+                    <a href="https://www.instagram.com/bakers_blocq/" target="_blank" class="contact-info contact-item">Bakers Blocq</a>
+                </nav>
+            </div>
+            <form action="https://formsubmit.co/lauren.deblocq@gmail.com" method="post">
+                <label for="email">Hi there! What is your email address?</label>
+                <input type="email" name="email" id="email" placeholder="yourname@email.com" required>
+                <br>
+                <label for="reason">What are you trying to contact me about?</label>
+                <select name="reason" id="reason" required>
+                    <option value="">--Please select an option--</option>
+                    <option value="employment">Programming related employment</option>
+                    <option value="bakers_blocq">Baking related employment</option>
+                    <option value="teaching">High School related employment</option>
+                    <option value="general">General enquires (please specify more below)</option>
+                </select>
+                <br>
+                <label for="extraInfo">Please tell me more about what you're interested in:</label>
+                <textarea rows="4" cols="50" name="extraInfo" placeholder="Type here"></textarea>
+                <br>
+                <input class="submit" type="submit" value="Submit">
+            </form>
+        </footer>
+    </main>
+  </body>
+</html>
