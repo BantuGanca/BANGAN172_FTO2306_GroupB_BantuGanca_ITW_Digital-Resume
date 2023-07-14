@@ -13,26 +13,26 @@ div{
 
 header{
     margin: 0%;
-    height: 100vh;
+    height: 70vh;
     display: grid;
     grid-template-columns: 1fr;
     
-    background-image: url("../Images/hero-image.jpg");
+    background-image: url("/Images/V&A.jpg");
     background-repeat: repeat;
-    background-size: 70%;
-    background-color: #22491d;
+    background-size: 40%;
+    background-color: #00487c;
 }
 
 .header-text {
-    color: #000000;
+    color: #fffcfc;
     justify-self: center;
-    background-color: #B1C1C0;
+    background-color: #e5e5e5;
     padding: 1rem;
     margin: 0;
 }
 
 #profile-pic {
-    height: 100%;
+    height: 50%;
     width: auto;
     border-radius: 50%;
 }
@@ -55,7 +55,7 @@ section{
 /* Nav bar styling */
 
 aside{
-    background-color: #5B5750;
+    background-color: #fca311;
     
 }
 
@@ -69,7 +69,7 @@ aside{
 
 .top-bar-item{
     color: rgb(222, 235, 239);
-    border: 1px solid #492C1D;
+    border: 1px solid #1d4849;
     padding: 1rem;
 }
 
@@ -110,7 +110,7 @@ h5{
 /* all footer level styling */
 
 footer{
-    background-color: #492C1D;
+    background-color: #14213d;
     display: grid;
     grid-template-columns: 30% 50%;
     height: fit-content;
@@ -118,7 +118,7 @@ footer{
 }
 
 .contact-info{
-    color: #DDE4E3;
+    color:  #DDE4E3
     margin-left: 2rem;
     display: flex;
     
@@ -126,21 +126,21 @@ footer{
 }
 
 .contact-item{
-    background-color: #777269;
+    background-color: #e3d5ca;
     padding: 1em;
     margin-bottom: 1rem;
-    border: 1px solid #24160e;
+    border: 1px solid #e3d5ca;
     
 }
 
 .contact-item:hover {
-    background-color: #afa99e;
-    color: #24160e;
+    background-color: #e3d5ca;
+    color: #e9c46a;
 }
 
 form {
-    border: 1px solid #492C1D;
-    background-color: #DDE4E3;
+    border: 1px solid #9f9f9f;
+    background-color: #d6ccc2;
     position: relative;
     display: flex;
     flex-direction: column;
